@@ -4,7 +4,7 @@ jobs:
   run-shell-command:
     strategy:
       matrix:
-	os: [ubuntu-latest, ubuntu-24.04]
+        os: [ubuntu-latest, ubuntu-24.04]
     runs-on: ${{ matrix.os}}
     steps:
       - name: echo a string
